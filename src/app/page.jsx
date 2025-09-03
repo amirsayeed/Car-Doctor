@@ -1,7 +1,10 @@
 import Image from "next/image";
+import Services from "./components/Services";
 
 export default function Home() {
   return ( 
-  <h1 className="text-xl"> Hello world! </h1>
+  <div>
+    <Services/>
+  </div>
   )
 }
